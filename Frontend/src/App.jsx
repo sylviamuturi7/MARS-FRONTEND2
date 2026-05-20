@@ -2,14 +2,14 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import Students from "./pages/Students";
-import StudentProfile from "./pages/StudentProfile"; // Imported new workspace page layout
-import Departments from "./pages/Departments";
-import Reports from "./pages/Reports";
-import TeacherProfile from "./pages/TeacherProfile";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
+import Dashboard from "./Pages/Dashboard";
+import Students from "./Pages/Students";
+import StudentProfile from "./Pages/StudentProfile"; // Imported new workspace page layout
+import Departments from "./Pages/Departments";
+import Reports from "./Pages/Reports";
+import TeacherProfile from "./Pages/TeacherProfile";
 
 // Security Gate Middleware
 const ProtectedRoute = ({ children }) => {
