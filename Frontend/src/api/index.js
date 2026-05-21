@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:5001", // Your Flask backend URL
+  baseURL: "https://mars-api-o24g.onrender.com", // Your Flask backend URL
 });
 
 // Add token to requests automatically

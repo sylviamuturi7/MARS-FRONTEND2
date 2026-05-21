@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
       headers["Authorization"] = `Bearer ${token}`;
     }
 
-    const response = await fetch(`http://localhost:5001${url}`, {
+    const response = await fetch(`https://mars-api-o24g.onrender.com${url}`, {
       ...options,
       headers,
     });

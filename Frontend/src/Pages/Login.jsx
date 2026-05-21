@@ -15,7 +15,7 @@ export default function Login() {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch("http://localhost:5001/auth/login", {
+      const res = await fetch("https://mars-api-o24g.onrender.com/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
